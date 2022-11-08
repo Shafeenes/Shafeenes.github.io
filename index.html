@@ -4,12 +4,12 @@
 <html>
 <head>
 
-  <base href="$FLUTTER_BASE_HREF">
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="A new Flutter project.">
-<!-- this is a test -->
+
  
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -18,13 +18,24 @@
 
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>myapp</title>
+  <title>HBS Shuttle Bus</title>
   <link rel="manifest" href="manifest.json">
 
   <script>
 
-    var serviceWorkerVersion = null;
+    var serviceWorkerVersion = '2257289509';
   </script>
+
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "6243a6e3-89cf-4402-8849-bc08ec6254c9",
+    });
+  });
+</script>
+
  
   <script src="flutter.js" defer></script>
 </head>
