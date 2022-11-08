@@ -22,7 +22,7 @@
 
   <script>
 
-    var serviceWorkerVersion = '2161585940';
+    var serviceWorkerVersion = '3112524428';
   </script>
 
   <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
@@ -30,8 +30,15 @@
 </head>
 
 <body>
-
-  
+  <script>
+    window.OneSignal = window.OneSignal || [];
+    OneSignal.push(function () {
+      OneSignal.init({
+        appId: "de1d63b1-894a-4c99-a9a4-2da5f7b8cc2c",
+      });
+    });
+  </script>
+  <div class='onesignal-customlink-container'></div>
   <script>
     window.addEventListener('load', function (ev) {
       _flutter.loader.loadEntrypoint({
@@ -46,14 +53,7 @@
     });
   </script>
 
-<script>
-  window.OneSignal = window.OneSignal || [];
-  OneSignal.push(function () {
-    OneSignal.init({
-      appId: "de1d63b1-894a-4c99-a9a4-2da5f7b8cc2c",
-    });
-  });
-</script>
+
 </body>
 
 </html>
