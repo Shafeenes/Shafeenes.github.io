@@ -84997,15 +84997,15 @@ D(a){var s,r=null,q=A.bo(r,5,r),p=A.aRn(r,r,new A.tc("img/hbs.png",r,r)),o=t.p,n
 l=A.aJ(r,A.pw(B.I2,A.pv(),new A.aq2(this),new A.qA(r,!1,r,B.i3,B.hZ,B.i1,r,r,r,r,r,r,B.fX,!0,!1,B.hX,B.hW,B.hU,B.i0,B.i_,B.cs,r,B.hR,!1),r,l),B.h,r,r,r,r,r,r,B.fk,B.fk,r,r,r)
 s=A.f7(r,r,A.a1(255,2,30,105),r,r,r,3,r,r,r,r,r,new A.a5(10,10,10,10),r,r,new A.bx(A.a1(255,207,207,207),3,B.E,B.B),r,r,r,r)
 return A.aAG(A.b5(A.a([q,new A.um(p,150,100,B.p5,r),n,B.HY,m,k,l,A.aJ(r,A.cy(A.bo(A.f6(A.cv(A.a([A.k_(B.Kf,r,30),A.as("  Select Date",r,r,r,r,r,r,r,r,r,r,r)],o),B.n,r,B.fT,B.o,r),new A.aq3(this),s),50,150),r,r),B.h,r,r,r,r,r,r,B.fj,B.fj,r,r,r)],o),B.n,B.m,B.o),r,B.aa)},
-ug(a,b,c){return this.Vs(a,b,c)},
-Vs(a,b,c){var s=0,r=A.R(t.Wd),q,p,o,n
-var $async$ug=A.S(function(d,e){if(d===1)return A.O(e,r)
+ug(a,b){return this.Vs(a,b)},
+Vs(a,b){var s=0,r=A.R(t.Wd),q,p,o,n
+var $async$ug=A.S(function(c,d){if(c===1)return A.O(d,r)
 while(true)switch(s){case 0:p=A.rk("https://onesignal.com/api/v1/notifications",0,null)
 o=t.N
-n=A.ao(["Content-Type","application/json; charset=UTF-8"],o,o)
+n=A.ao(["Content-Type","application/json; charset=UTF-8","Authorization",'Basic "MzY3YmExMzMtMzE0YS00OWUzLWJjOGItYTliZGVlMThiNzU4"'],o,o)
 s=3
-return A.K(A.aXl(p,B.bH.Ru(A.ao(["app_id","de1d63b1-894a-4c99-a9a4-2da5f7b8cc2c","include_player_ids",a,"android_accent_color","FF9976D2","small_icon","ic_stat_onesignal_default","large_icon","https://www.filepicker.io/api/file/zPloHSmnQsix82nlj9Aj?filename=name.jpg","headings",A.ao(["en",c],o,o),"contents",A.ao(["en",b],o,o)],o,t.z),null),n),$async$ug)
-case 3:q=e
+return A.K(A.aXl(p,B.bH.Ru(A.ao(["app_id","de1d63b1-894a-4c99-a9a4-2da5f7b8cc2c","included_segments",A.a(["Subscribed Users"],t.s),"android_accent_color","FF9976D2","small_icon","ic_stat_onesignal_default","large_icon","https://www.filepicker.io/api/file/zPloHSmnQsix82nlj9Aj?filename=name.jpg","headings",A.ao(["en",b],o,o),"contents",A.ao(["en",a],o,o)],o,t.z),null),n),$async$ug)
+case 3:q=d
 s=1
 break
 case 1:return A.P(q,r)}})
@@ -85025,7 +85025,7 @@ A.aq_.prototype={
 $0(){this.b.toString},
 $S:0}
 A.aq3.prototype={
-$0(){this.a.ug("3255a912-8dea-4207-a756-79be55f227a6","How are you","HBS ANNOUvvNEMNT")},
+$0(){this.a.ug("How are you","HBS ANNOUvvNEMNT")},
 $S:0}
 A.Bi.prototype={
 a0N(a){return A.j6(A.cH(0,0,2250,0),null,t.z).aR(0,new A.aaF(a),t.ob)},
