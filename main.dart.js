@@ -86151,7 +86151,7 @@ $2(a,b){return J.l7(J.aV(b,"date"),J.aV(a,"date"))},
 $S:32}
 A.art.prototype={
 $0(){var s="type",r=this.a,q=this.b
-if(J.e(r[q].h(0,s),"Update")||J.e(r[q].h(0,s),"Important")||J.e(r[q].h(0,s),"Notice"))return J.eB(J.eB(r[q].h(0,s),"\n"),r[q].h(0,"name"))
+if(J.e(r[q].h(0,s),"Update")||J.e(r[q].h(0,s),"Important")||J.e(r[q].h(0,s),"Notice")||J.e(r[q].h(0,s),"Lost & Found"))return J.eB(J.eB(r[q].h(0,s),"\n"),r[q].h(0,"name"))
 return B.b.O(B.b.O(B.b.O("Bus Name: ",r[q].h(0,"name"))+"\nLocation: ",r[q].h(0,"fmlocation"))+" to ",r[q].h(0,"tolocation"))+" Update added to the list!! "},
 $S:44}
 A.qd.prototype={
