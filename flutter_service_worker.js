@@ -33,9 +33,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "7e0ea4cee35d0bcc10cfc4245f70df22",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "bee7fd486e689186808f09cd03b0141a",
-"/": "bee7fd486e689186808f09cd03b0141a",
-"main.dart.js": "d47733c67a32852952e46b74fbeb54f8",
+"index.html": "a6667e3d2d05455125679ffe86ec0606",
+"/": "a6667e3d2d05455125679ffe86ec0606",
+"main.dart.js": "2d37f3423717a01f3d5835649f7077cd",
 "manifest.json": "56128fc6ec7568b99d6fc24cfa34a218",
 "OneSignalSDKWorker.js": "ebb63ca15bba16b550232b0b0f66c726",
 "version.json": "a9faa3030bf3188ced4ad4aae8051242"
